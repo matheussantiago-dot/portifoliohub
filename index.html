@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PortfolioHUB + IA Gemini</title>
+  <title>Matheus Santiago | PortfolioHUB</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero" id="inicio">
     <nav class="nav">
-      <a class="logo" href="#inicio">Portfolio<span>HUB</span></a>
+      <a class="logo" href="#inicio">Matheus<span>.dev</span></a>
       <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
       <div class="links" id="navLinks">
-        <a href="#planejamento">Planejamento</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#portfoliohub">PortfolioHUB</a>
         <a href="#github">GitHub</a>
         <a href="#seguranca">Segurança</a>
         <a href="#testes">Testes</a>
@@ -20,25 +21,53 @@
     </nav>
 
     <section class="hero-content">
-      <p class="tag">Implantação PortfolioHUB + IA Gemini</p>
-      <h1>Centralize projetos, documentação e controle de acesso em um só lugar.</h1>
-      <p class="subtitle">Protótipo estático feito com HTML, CSS e JavaScript para apresentar a implantação do PortfolioHUB, integrando boas práticas de GitHub, segurança, colaboração e apoio com IA.</p>
+      <p class="tag">PortfolioHUB + IA Gemini</p>
+      <h1>Olá, eu sou Matheus Santiago Valadares Fonseca.</h1>
+      <p class="subtitle">
+        Estudante do UniCEUB — Centro Universitário de Brasília — em fase de aprendizado na linguagem C,
+        criando uma base sólida em lógica, programação e desenvolvimento web com HTML, CSS e JavaScript.
+      </p>
       <div class="actions">
         <a class="btn primary" href="https://github.com/matheussantiago-dot/portifoliohub" target="_blank" rel="noopener">Ver repositório</a>
-        <a class="btn secondary" href="#dashboard">Abrir dashboard</a>
+        <a class="btn secondary" href="#sobre">Conhecer o projeto</a>
       </div>
     </section>
   </header>
 
   <main>
-    <section class="section" id="dashboard">
+    <section class="section profile" id="sobre">
+      <div class="section-title">
+        <p>Sobre mim</p>
+        <h2>Um portfólio com identidade de estudante e desenvolvedor iniciante</h2>
+      </div>
+      <div class="profile-grid">
+        <article class="panel big-card">
+          <h3>Quem sou eu</h3>
+          <p>
+            Sou Matheus Santiago Valadares Fonseca, estudante do UniCEUB e estou construindo minha trajetória
+            na tecnologia. Atualmente, meu foco está em aprender C, entender melhor a lógica de programação
+            e aplicar esse conhecimento em projetos práticos.
+          </p>
+        </article>
+        <article class="panel code-card">
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Olá, PortfolioHUB!");
+    return 0;
+}</code></pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="portfoliohub">
       <div class="section-title">
         <p>Visão geral</p>
-        <h2>Dashboard de implantação</h2>
+        <h2>Dashboard da implantação</h2>
       </div>
       <div class="cards stats">
         <article><strong>6</strong><span>Etapas documentadas</span></article>
-        <article><strong>100%</strong><span>Front-end estático</span></article>
+        <article><strong>C</strong><span>Linguagem em aprendizado</span></article>
         <article><strong>GitHub</strong><span>Versionamento e colaboração</span></article>
         <article><strong>Gemini</strong><span>Apoio e revisão de boas práticas</span></article>
       </div>
@@ -48,13 +77,16 @@
       <div>
         <p class="eyebrow">Etapa 1</p>
         <h2>Planejamento da implantação</h2>
-        <p>O PortfolioHUB foi planejado para organizar projetos digitais, apresentar portfólios e documentar o processo de publicação. A IA Gemini entra como apoio para revisar tarefas, sugerir melhorias e validar a estrutura antes da entrega.</p>
+        <p>
+          O PortfolioHUB foi planejado para centralizar projetos, organizar documentação e apresentar minha evolução
+          como estudante. A proposta é mostrar domínio básico de front-end, integração com GitHub e boas práticas de segurança.
+        </p>
       </div>
       <div class="timeline">
-        <div><span>01</span><p>Definição do escopo e seções obrigatórias.</p></div>
-        <div><span>02</span><p>Criação dos arquivos HTML, CSS e JavaScript.</p></div>
-        <div><span>03</span><p>Publicação por GitHub Pages.</p></div>
-        <div><span>04</span><p>Revisão final e documentação da entrega.</p></div>
+        <div><span>01</span><p>Definição do escopo do PortfolioHUB.</p></div>
+        <div><span>02</span><p>Personalização com minha identidade acadêmica.</p></div>
+        <div><span>03</span><p>Publicação dos arquivos no GitHub Pages.</p></div>
+        <div><span>04</span><p>Revisão final com apoio da IA Gemini.</p></div>
       </div>
     </section>
 
@@ -70,16 +102,30 @@
       <div class="panel">
         <p class="eyebrow">Etapa 3</p>
         <h2>Gestão de usuários e segurança</h2>
-        <p>As permissões devem seguir o princípio do menor privilégio: apenas pessoas autorizadas podem editar o repositório, revisar código ou alterar configurações de publicação.</p>
+        <p>
+          A segurança do projeto foi pensada com foco em permissões corretas, proteção de dados e uso responsável das ferramentas.
+        </p>
         <ul class="checklist" id="securityList"></ul>
       </div>
       <form class="panel access" id="accessForm">
         <h3>Simulador de acesso</h3>
-        <label>Nome do usuário<input id="userName" type="text" placeholder="Ex.: Bernardo" required /></label>
+        <label>Nome do usuário<input id="userName" type="text" placeholder="Ex.: Matheus" required /></label>
         <label>Perfil<select id="userRole"><option>Leitor</option><option>Colaborador</option><option>Administrador</option></select></label>
         <button class="btn primary" type="submit">Registrar acesso</button>
         <p class="result" id="accessResult">Nenhum acesso registrado ainda.</p>
       </form>
+    </section>
+
+    <section class="section skills">
+      <div class="section-title">
+        <p>Minha trilha</p>
+        <h2>Conhecimentos em desenvolvimento</h2>
+      </div>
+      <div class="cards projects">
+        <article><h3>Linguagem C</h3><p>Estudo de lógica, variáveis, estruturas de decisão, repetição e funções.</p></article>
+        <article><h3>Front-end</h3><p>Construção de páginas com HTML, estilização com CSS e interações com JavaScript.</p></article>
+        <article><h3>GitHub</h3><p>Organização de repositório, commits, versionamento e publicação com GitHub Pages.</p></article>
+      </div>
     </section>
 
     <section class="section" id="testes">
@@ -96,13 +142,16 @@
     <section class="section presentation">
       <p class="eyebrow">Etapa 6</p>
       <h2>Revisão final e apresentação</h2>
-      <p>Na apresentação, explique o objetivo do PortfolioHUB, mostre o repositório no GitHub, destaque as políticas de segurança e finalize demonstrando o site publicado.</p>
+      <p>
+        Nesta entrega, apresento o PortfolioHUB como um projeto acadêmico personalizado, conectando minha formação no UniCEUB,
+        meu aprendizado em C e a implantação com GitHub, segurança e apoio da IA Gemini.
+      </p>
       <a class="btn primary" href="https://bernardopmtld.github.io/Portifuliohub/" target="_blank" rel="noopener">Referência visual usada</a>
     </section>
   </main>
 
   <footer>
-    <p>PortfolioHUB © 2026 — HTML, CSS e JavaScript</p>
+    <p>Matheus Santiago Valadares Fonseca © 2026 — PortfolioHUB</p>
     <a href="#inicio">Voltar ao topo</a>
   </footer>
 
