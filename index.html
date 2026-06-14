@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PortfolioHUB + IA Gemini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="nav">
+      <a class="logo" href="#inicio">Portfolio<span>HUB</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+      <div class="links" id="navLinks">
+        <a href="#planejamento">Planejamento</a>
+        <a href="#github">GitHub</a>
+        <a href="#seguranca">Segurança</a>
+        <a href="#testes">Testes</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Implantação PortfolioHUB + IA Gemini</p>
+      <h1>Centralize projetos, documentação e controle de acesso em um só lugar.</h1>
+      <p class="subtitle">Protótipo estático feito com HTML, CSS e JavaScript para apresentar a implantação do PortfolioHUB, integrando boas práticas de GitHub, segurança, colaboração e apoio com IA.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/matheussantiago-dot/portifoliohub" target="_blank" rel="noopener">Ver repositório</a>
+        <a class="btn secondary" href="#dashboard">Abrir dashboard</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="dashboard">
+      <div class="section-title">
+        <p>Visão geral</p>
+        <h2>Dashboard de implantação</h2>
+      </div>
+      <div class="cards stats">
+        <article><strong>6</strong><span>Etapas documentadas</span></article>
+        <article><strong>100%</strong><span>Front-end estático</span></article>
+        <article><strong>GitHub</strong><span>Versionamento e colaboração</span></article>
+        <article><strong>Gemini</strong><span>Apoio e revisão de boas práticas</span></article>
+      </div>
+    </section>
+
+    <section class="section grid-two" id="planejamento">
+      <div>
+        <p class="eyebrow">Etapa 1</p>
+        <h2>Planejamento da implantação</h2>
+        <p>O PortfolioHUB foi planejado para organizar projetos digitais, apresentar portfólios e documentar o processo de publicação. A IA Gemini entra como apoio para revisar tarefas, sugerir melhorias e validar a estrutura antes da entrega.</p>
+      </div>
+      <div class="timeline">
+        <div><span>01</span><p>Definição do escopo e seções obrigatórias.</p></div>
+        <div><span>02</span><p>Criação dos arquivos HTML, CSS e JavaScript.</p></div>
+        <div><span>03</span><p>Publicação por GitHub Pages.</p></div>
+        <div><span>04</span><p>Revisão final e documentação da entrega.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="github">
+      <div class="section-title">
+        <p>Etapa 2 e 4</p>
+        <h2>Integração com GitHub</h2>
+      </div>
+      <div class="cards projects" id="projectList"></div>
+    </section>
+
+    <section class="section grid-two" id="seguranca">
+      <div class="panel">
+        <p class="eyebrow">Etapa 3</p>
+        <h2>Gestão de usuários e segurança</h2>
+        <p>As permissões devem seguir o princípio do menor privilégio: apenas pessoas autorizadas podem editar o repositório, revisar código ou alterar configurações de publicação.</p>
+        <ul class="checklist" id="securityList"></ul>
+      </div>
+      <form class="panel access" id="accessForm">
+        <h3>Simulador de acesso</h3>
+        <label>Nome do usuário<input id="userName" type="text" placeholder="Ex.: Bernardo" required /></label>
+        <label>Perfil<select id="userRole"><option>Leitor</option><option>Colaborador</option><option>Administrador</option></select></label>
+        <button class="btn primary" type="submit">Registrar acesso</button>
+        <p class="result" id="accessResult">Nenhum acesso registrado ainda.</p>
+      </form>
+    </section>
+
+    <section class="section" id="testes">
+      <div class="section-title">
+        <p>Etapa 5</p>
+        <h2>Finalização e testes</h2>
+      </div>
+      <div class="test-box">
+        <button class="btn secondary" id="runTests">Executar checklist</button>
+        <div id="testResults" class="test-results"></div>
+      </div>
+    </section>
+
+    <section class="section presentation">
+      <p class="eyebrow">Etapa 6</p>
+      <h2>Revisão final e apresentação</h2>
+      <p>Na apresentação, explique o objetivo do PortfolioHUB, mostre o repositório no GitHub, destaque as políticas de segurança e finalize demonstrando o site publicado.</p>
+      <a class="btn primary" href="https://bernardopmtld.github.io/Portifuliohub/" target="_blank" rel="noopener">Referência visual usada</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>PortfolioHUB © 2026 — HTML, CSS e JavaScript</p>
+    <a href="#inicio">Voltar ao topo</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
